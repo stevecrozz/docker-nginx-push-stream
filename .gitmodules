@@ -1,0 +1,6 @@
+[submodule "nginx-push-stream-module"]
+	path = nginx-push-stream-module
+	url = git@github.com:wandenberg/nginx-push-stream-module.git
+[submodule "nginx"]
+	path = nginx
+	url = git@github.com:nginx/nginx.git
