@@ -2,5 +2,7 @@
 
 set -e
 
+GITREF=`git symbolic-ref -q --short HEAD`
+
 git submodule update --init
-docker build .
+docker build --tag="stevecrozz/nginx-push-stream:$GITREF" .
